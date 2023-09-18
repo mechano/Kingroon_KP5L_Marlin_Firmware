@@ -1,4 +1,4 @@
-# KP5L_Marlin
+# Kingroon_KP5L_Marlin
 Kingroon KP5L Marlin Firmware
 
 Marlin 2.1.x bugfix firmware for Kingroon KP5L version distributed summer 2023.
