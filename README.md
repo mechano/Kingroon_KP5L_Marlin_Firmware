@@ -14,4 +14,4 @@ Tramming wizard,
 Linear Advance K: 0.08 (PLA), 
 Input shaping,
 Portrait screen,
-115200 serial port,
+115200 serial port.
