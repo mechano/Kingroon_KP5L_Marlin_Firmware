@@ -10,7 +10,7 @@ Portrait screen,
 115200 serial port.
 2. 
 BLTouch and 25 point probe Mesh bed leveling,
-Manual tramming,
+Tramming wizard,
 Linear Advance K: 0.08 (PLA), 
 Input shaping,
 Portrait screen,
