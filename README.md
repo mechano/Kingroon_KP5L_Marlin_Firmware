@@ -15,3 +15,5 @@ Linear Advance K: 0.08 (PLA),
 Input shaping,
 Portrait screen,
 115200 serial port.
+
+NOTE: for BLTouch put Z-probe plug to Z-Min endstop and you can remove the Z-Min switch from the machine.
