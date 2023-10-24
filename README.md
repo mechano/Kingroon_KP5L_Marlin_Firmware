@@ -12,6 +12,7 @@ Portrait screen,
 2. 
 BLTouch and 25 point probe Mesh bed leveling,
 Tramming wizard,
+Z-offset wizard,
 Linear Advance K: 0.08 (PLA), 
 Input shaping,
 Portrait screen,
