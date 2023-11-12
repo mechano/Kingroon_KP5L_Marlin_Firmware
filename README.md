@@ -26,7 +26,9 @@ double touch select,
 300°C hotend.
 
 Verions available in both portrait and landscape display.
+
 All in english language.
+
 Into the archive Configuration.h and Configuration_adv.h files. 
 
 NOTE: for BLTouch put Z-probe plug to Z-Min endstop and you can remove the Z-Min switch from the machine.
