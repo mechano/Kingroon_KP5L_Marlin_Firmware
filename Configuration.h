@@ -47,7 +47,7 @@
  * https://www.youtube.com/watch?v=s2ZiibBKVKI
  * un-comment USE_BLTOUCH if a BL-Touch is installed on your printer.
 */
-//#define USE_BLTOUCH
+#define USE_BLTOUCH   // GR
 
 /**
  * after the BL-Touch is installed the offset between the probe and nozzle
@@ -1336,7 +1336,7 @@
   #endif
 #endif
 
-#define DEFAULT_EJERK    15.0  // May be used by Linear Advance
+#define DEFAULT_EJERK    15.0  // May be used by Linear Advance // GR Linear advance vuole almeno 10
 
 /**
  * Junction Deviation Factor
@@ -1770,9 +1770,9 @@
 // @section motion
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR false  // GR valori corretti per la KP5L
-#define INVERT_Y_DIR true   // GR valori corretti per la KP5L
-#define INVERT_Z_DIR false  // GR valori corretti per la KP5L
+#define INVERT_X_DIR false
+#define INVERT_Y_DIR true
+#define INVERT_Z_DIR false
 //#define INVERT_I_DIR false
 //#define INVERT_J_DIR false
 //#define INVERT_K_DIR false
@@ -2214,7 +2214,7 @@
   //===========================================================================
 
   #define MESH_INSET 10          // Set Mesh bounds as an inset region of the bed
-  #define GRID_MAX_POINTS_X 4    // Don't use more than 7 points per axis, implementation limited. // GR 4x4 punti di calibrazione manuale
+  #define GRID_MAX_POINTS_X 5    // Don't use more than 7 points per axis, implementation limited. // GR 5x5 punti di calibrazione manuale
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   //#define MESH_G28_REST_ORIGIN // After homing all axes ('G28' or 'G28 XYZ') rest Z at Z_MIN_POS
@@ -2241,7 +2241,7 @@
   #define BED_TRAMMING_HEIGHT      0.0        // (mm) Z height of nozzle at tramming points
   #define BED_TRAMMING_Z_HOP       4.0        // (mm) Z height of nozzle between tramming points
   #define BED_TRAMMING_INCLUDE_CENTER         // Move to the center after the last corner
-  //#define BED_TRAMMING_USE_PROBE  // GR proviamo a fargli usare 3D Touch per il tramming assistito
+  #define BED_TRAMMING_USE_PROBE  // GR proviamo a fargli usare 3D Touch per il tramming assistito
   #if ENABLED(BED_TRAMMING_USE_PROBE)
     #define BED_TRAMMING_PROBE_TOLERANCE 0.1  // (mm)
     #define BED_TRAMMING_VERIFY_RAISED        // After adjustment triggers the probe, re-probe to verify
@@ -3635,5 +3635,4 @@
 
 // Disable servo with M282 to reduce power consumption, noise, and heat when not in use
 //#define SERVO_DETACH_GCODE
-
 
