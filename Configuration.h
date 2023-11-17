@@ -1336,7 +1336,7 @@
   #endif
 #endif
 
-#define DEFAULT_EJERK    15.0  // May be used by Linear Advance
+#define DEFAULT_EJERK    15.0  // May be used by Linear Advance // GR Linear advance vuole almeno 10 era 5
 
 /**
  * Junction Deviation Factor
