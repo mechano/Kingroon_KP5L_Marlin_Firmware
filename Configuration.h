@@ -1336,7 +1336,7 @@
   #endif
 #endif
 
-#define DEFAULT_EJERK    15.0  // May be used by Linear Advance // GR Linear advance vuole almeno 10
+#define DEFAULT_EJERK    15.0  // May be used by Linear Advance // GR Linear advance vuole almeno 10 era 5
 
 /**
  * Junction Deviation Factor
@@ -1770,9 +1770,9 @@
 // @section motion
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR false
-#define INVERT_Y_DIR true
-#define INVERT_Z_DIR false
+#define INVERT_X_DIR false  // GR valori corretti per la KP5L
+#define INVERT_Y_DIR true   // GR valori corretti per la KP5L
+#define INVERT_Z_DIR false  // GR valori corretti per la KP5L
 //#define INVERT_I_DIR false
 //#define INVERT_J_DIR false
 //#define INVERT_K_DIR false
