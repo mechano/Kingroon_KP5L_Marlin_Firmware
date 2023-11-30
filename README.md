@@ -12,7 +12,7 @@ scroll long filenames,
 5 languages,
 310x310 bed size,
 115200 serial port,
-300°C hotend.
+290°C hotend.
 
 3. 
 BLTouch and 25 point probe Mesh bed leveling,
@@ -25,7 +25,7 @@ scroll long filenames,
 5 languages
 310x310 bed size,
 115200 serial port
-300°C hotend.
+290°C hotend.
 
 Verions available in both portrait and landscape display.
 
