@@ -3,18 +3,6 @@ Kingroon KP5L Marlin Firmware
 
 Marlin 2.1.x bugfix firmware for Kingroon KP5L version distributed november 2023.
 
-1.
-NO BLTouch and 16 point manual Mesh bed leveling,
-Linear Advance K: 0.08 (PLA),
-Input shaping,
-double touch to select,
-scroll long filenames,
-5 languages,
-310x310 bed size,
-115200 serial port,
-290°C hotend.
-
-3. 
 BLTouch and 25 point probe Mesh bed leveling,
 Tramming wizard,
 Z-offset wizard,
