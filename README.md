@@ -14,7 +14,7 @@ scroll long filenames,
 115200 serial port,
 290°C hotend.
 
-3. 
+2. 
 BLTouch and 25 point probe Mesh bed leveling,
 Tramming wizard,
 Z-offset wizard,
