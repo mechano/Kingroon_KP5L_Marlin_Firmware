@@ -17,6 +17,8 @@ scroll long filenames,
 
 Verions available in both portrait and landscape display.
 
+Octoprint friendly with HOST_ACTION_COMMANDS active.
+
 English language default can be changed from menu.
 
 Into the archive Configuration.h and Configuration_adv.h files. 
