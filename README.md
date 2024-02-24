@@ -1,7 +1,7 @@
 # Kingroon_KP5L_Marlin
 Kingroon KP5L Marlin Firmware
 
-Marlin 2.1.x bugfix firmware for Kingroon KP5L version distributed november 2023.
+Marlin 2.1.x bugfix firmware for Kingroon KP5L version distributed january 2024.
 
 With and without BLTouch, 
 16 points manual Mesh bed leveling,
